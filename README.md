@@ -149,27 +149,7 @@ All API requests include `credentials: 'include'` to handle HTTP-only authentica
 - **Forms**: Clear labels and validation feedback
 - **Navigation**: Sticky positioning and responsive layout
 
-## 📁 Project Structure
 
-\`\`\`
-fetch-dog-adoption/
-├── app/
-│   ├── globals.css          # Global styles and Tailwind imports
-│   ├── layout.tsx           # Root layout with metadata
-│   ├── page.tsx             # Login page component
-│   └── search/
-│       ├── page.tsx         # Main search and results page
-│       └── loading.tsx      # Loading state component
-├── components/
-│   ├── ui/                  # shadcn/ui components
-│   └── dog-paw-icon.tsx     # Custom dog paw SVG icon
-├── hooks/
-│   └── use-toast.ts         # Toast notification hook
-├── lib/
-│   └── utils.ts             # Utility functions
-├── tailwind.config.ts       # Tailwind configuration
-└── README.md               # Project documentation
-\`\`\`
 
 ## 🔒 Security Considerations
 
